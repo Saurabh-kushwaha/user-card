@@ -1,0 +1,78 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.userPage{
+  padding: 50px;
+}
+.card {
+  padding: 30px;
+  border: solid 1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.08);
+}
+
+.avatar img{
+  width: 140px;
+  border: solid 6px transparent;
+  border-radius: 50%;
+}
+
+.card:hover .avatar img {
+  border-color: rgb(99, 204, 131);
+}
+
+.show button{
+  display: block;
+}
+.hide button{
+  display: none;
+}
+
+#removebtn{
+ float: right;
+}
+
+
+#removebtn button{
+  cursor: pointer;
+}
+
+.userDetails{
+  width: 200px;
+  margin: auto;
+}
+
+.title{
+  display: flex;
+}
+.title p{
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.btn button{
+  background-color: green;
+  border: none;
+  padding: 5px;
+  color: white;
+  border-radius: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 25px;
+}
+
+#grid button{
+  border: none;
+  font-weight: bolder;
+}
+
+
